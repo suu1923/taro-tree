@@ -2,6 +2,8 @@
 
 #### demo
 
+![Alt Text](https://github.com/suu1923/taro-tree/raw/master/readme-demo.gif)
+
 #### 使用
 > 在调用页面嵌入MovableArea和MovableView,如下:
 
@@ -120,7 +122,7 @@ export default class TreeS extends Component {
 }
 ```
 
-####TreeChartItem参数
+#### TreeChartItem参数
 
 | 参数                | 类型     | 是否必填 | 默认值                                               | 描述                 |
 | ------------------- | -------- | -------- | ---------------------------------------------------- | -------------------- |
