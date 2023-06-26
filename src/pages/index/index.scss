@@ -1,0 +1,144 @@
+page {
+  background-color: #F7F7F7;
+}
+
+.movable-area {
+  width: 100%;
+  height: 100%;
+
+  .movable-view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+
+.custom-user-info {
+  background-color: rgba(255, 251, 245, 1.000000);
+  border-radius: 12rpx;
+  border: 1px solid rgba(231, 196, 141, 1);
+  flex-direction: row;
+  display: flex;
+  justify-content: flex-center;
+  padding: 0 11rpx 0 11rpx;
+
+  .info-spouse-box {
+    display: flex;
+    flex-direction: column;
+    margin: 12rpx 0 0 0;
+  }
+
+  .info-spouse-text {
+    width: 32rpx;
+    height: 88rpx;
+    overflow-wrap: break-word;
+    color: rgba(130, 69, 4, 1);
+    font-size: 32rpx;
+    font-family: STKaiti;
+    font-weight: 700;
+    text-align: left;
+    line-height: 44rpx;
+    margin-top: 10rpx;
+  }
+
+  .info-family-number-box {
+    display: flex;
+    flex-direction: column;
+    margin: 24rpx 0 0rpx 0rpx;
+  }
+
+  .dot {
+    background-color: rgba(29, 61, 99, 1.000000);
+    border-radius: 6rpx;
+    width: 12rpx;
+    height: 12rpx;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-family-number-text {
+    width: 32rpx;
+    height: 88rpx;
+    overflow-wrap: break-word;
+    font-size: 32rpx;
+    font-family: STKaiti;
+    font-weight: normal;
+    text-align: left;
+    line-height: 44rpx;
+    margin-top: 4rpx;
+  }
+
+  .info-name {
+    display: flex;
+    flex-direction: column;
+    margin: 24rpx 0 0rpx 16rpx;
+  }
+
+  .info-name-text {
+    width: 36rpx;
+    height: 150rpx;
+    overflow-wrap: break-word;
+    color: rgba(130, 69, 4, 1);
+    font-size: 36rpx;
+    font-family: STKaiti;
+    font-weight: bold;
+    text-align: left;
+    line-height: 50rpx;
+    margin-top: 4rpx;
+  }
+
+
+  .info-rank-box {
+    display: flex;
+    flex-direction: column;
+    margin: 20rpx 0 0rpx 12rpx;
+  }
+
+  .info-rank-box-dot {
+    background-color: rgba(130, 69, 4, 0.000000);
+    border-radius: 8rpx;
+    width: 12rpx;
+    height: 12rpx;
+    border: 1px solid rgba(130, 69, 4, 1);
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .info-rank-text {
+    width: 32rpx;
+    height: 88rpx;
+    overflow-wrap: break-word;
+    color: rgba(130, 69, 4, 1);
+    font-size: 32rpx;
+    font-family: STKaiti;
+    font-weight: normal;
+    text-align: left;
+    line-height: 44rpx;
+    align-self: center;
+    margin-top: 4rpx;
+  }
+
+  .info-gender-box {
+    background-color: rgba(216, 216, 216, 0.000000);
+    border-radius: 18rpx;
+    border: 1px solid rgba(95, 119, 147, 1);
+    margin-top: 10rpx;
+    display: flex;
+    flex-direction: column;
+    padding: 0 4rpx 0 4rpx;
+  }
+
+  .info-gender-text {
+    overflow-wrap: break-word;
+    color: rgba(95, 119, 147, 1);
+    font-size: 24rpx;
+    font-family: STKaiti;
+    font-weight: normal;
+    text-align: left;
+    white-space: nowrap;
+    line-height: 34rpx;
+  }
+}

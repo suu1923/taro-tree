@@ -1,0 +1,97 @@
+.tree-container,
+.user-super-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-sons-container {
+  display: flex;
+  align-items: center;
+}
+
+.user-container {
+  width: 96rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-info {
+  overflow: hidden;
+}
+
+.user-name {
+  width: 96rpx;
+  height: 32rpx;
+  border-radius: 4rpx;
+  background-color: #bbb;
+  display: flex;
+
+  .user-name-text {
+    font-size: 20rpx;
+    width: 80rpx;
+    margin-left: 2rpx;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    align-content: center;
+  }
+}
+
+.horizontal-line,
+.first-line,
+.last-line,
+.item-none {
+  // 此属性不可修改
+  width: 50%;
+  // 在这里修改线条的尺寸
+  height: 5rpx;
+  background-color: #000000;
+}
+
+.horizontal-line,
+.first-line {
+  margin-left: 50%;
+}
+
+.none-height {
+  height: 0 !important;
+}
+
+.none-width {
+  width: 0 !important;
+}
+
+.item-none {
+  width: 100% !important;
+  height: 5px;
+}
+
+.root-line,
+.vertical-line {
+  // 在这里修改线条的尺寸
+  width: 5rpx;
+  height: 50rpx;
+}
+
+.last-line {
+  margin-right: 50%;
+}
+
+.children-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.children-super {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
